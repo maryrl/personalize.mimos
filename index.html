@@ -7,9 +7,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="bg-gray-50">
+  <body class="bg-pink-50">
     <!-- Header -->
-    <header class="gradient-bg text-white py-6 shadow-lg">
+    <header class="bg-pink-400 text-white py-6 shadow-lg">
       <div class="container mx-auto px-4">
         <div class="text-center">
           <h1 class="text-3xl font-bold mb-2">🎨 Personalize Mimos</h1>
@@ -19,7 +19,34 @@
         </div>
       </div>
     </header>
+<!-- Banner do Catálogo -->
+<section class="bg-white text-gray-900 py-10">
+  <div class="container mx-auto px-4 text-center">
+    <h1 class="text-3xl md:text-4xl font-bold mb-4">
+      📘 Catálogo de Produtos 2025
+    </h1>
+    <p class="text-lg mb-6 max-w-2xl mx-auto">
+      Confira todas as novidades e ofertas do nosso catálogo oficial antes de explorar os produtos!
+    </p>
 
+    <!-- Botão para abrir em nova aba -->
+    <a href="assets/CATÁLOGO DE PRODUTOS 2025.pdf" target="_blank"
+      class="inline-block bg-yellow-400 text-gray-900 px-6 py-2 rounded-full font-bold hover:bg-yellow-300 transition-colors mb-6 shadow-lg">
+      📂 Abrir Catálogo em Tela Cheia
+    </a>
+
+    <!-- Exibição do PDF -->
+    <div class="bg-white rounded-lg shadow-lg p-4 max-w-5xl mx-auto">
+      <iframe 
+        src="assets/CATÁLOGO DE PRODUTOS 2025.pdf" 
+        class="border rounded-lg shadow w-full h-[500px] md:h-[700px]"
+        loading="lazy"
+      ></iframe>
+    </div>
+  </div>
+</section>
+
+</section>
     <div class="container mx-auto px-4 py-8">
       <div class="grid lg:grid-cols-3 gap-8">
         <!-- Produtos -->
@@ -27,6 +54,7 @@
           <h2 class="text-2xl font-bold text-gray-800 mb-6">
             📦 Escolha seus produtos
           </h2>
+
 
           <!-- Categorias -->
 <div class="mb-6">
@@ -165,15 +193,6 @@
 
     </div>
 
-    <section class="container mx-auto px-4 py-8">
-  <h2 class="text-2xl font-bold text-gray-800 mb-4">📘 Catálogo de Produtos</h2>
-  <iframe 
-    src="/CATÁLOGO DE PRODUTOS 2025.pdf" 
-    width="100%" 
-    height="600" 
-    class="border rounded-lg shadow"
-  ></iframe>
-</section>
 
   <script>
   document.getElementById('delivery-method').addEventListener('change', function() {
