@@ -27,3 +27,19 @@
     transform: translateX(0);
   }
 }
+
+#products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Exemplo */
+  gap: 1rem;
+}
+
+iframe {
+  border: none;
+}
+
+@media (max-width: 640px) {
+  iframe {
+    height: 400px !important; /* Mantém legível no celular */
+  }
+}
