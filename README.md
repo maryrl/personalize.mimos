@@ -35,7 +35,7 @@ Este projeto é uma **loja virtual simples e interativa** para a marca *Personal
 ## 📸 Prévia do Projeto
 
   <img src="Personalize- Mimo personalizado - Google Chrome 11_08_2025 08_34_53.png"  width="600">
-  <img src="assets\Personalize- Mimo personalizado - Google Chrome 11_08_2025 08_36_17.png"  width="600">
+  <img src="Personalize- Mimo personalizado - Google Chrome 11_08_2025 08_36_17.png"  width="600">
 
 
 ## 📜 Licença
